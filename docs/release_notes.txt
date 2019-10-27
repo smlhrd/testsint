@@ -1,0 +1,62 @@
+Release Notes zum Tool "osint_wlh.py"
+
+
+In der Datei "wosind.py" kann man das aktuelle Releasedatum vermerkt
+
+Known Issues:
+
+Es kann zu Problemen bei der Anzeige der Daten kommen.
+Diese Probleme sind in der Webprogrammierung der Ergebnisseiten von viewdns.info begruendet.
+Die Programmierung ist sehr fehleranfaellig und nicht wirklich konsistent.
+
+Release vom 17.10.2019
+
+- Datei in "wosind.py" umbenannt
+- Programm kann nun mit einem direkten Aufruf der Funktion gestartet werde (python ./wosind.py 5)
+- Funktion zum Download von serverzertifikaten eingebaut; nutzt https://crt.sh
+- Funktion "traceroute" temporär ausgebaut, wegen Problemen mit der Laufzeit
+- Erklärungen hinzugefügt, bei welcher Funktion, welcher Service genutzt wird
+- Einige Funktionen mit "try ... except" gesichert
+- NMAP ABfrage gekennzeichnet, dass man dann das Programm als "sudo" starten muss
+- Programm kann vor der Wahl einer Funktion jetzt mit < ENTER > beendet werden
+- Temporärer Pfad wird im Kopf der Datei gesetzt, damit die neue Verzeichnisstruktur genutzt werden kann
+- Verzeichnisstruktur eingebaut
+
+    - viewdns  ==> TopLevel und Ablageort für die ausfühbaren Dateien
+        |_ module ==> Ablage alles eigenen Module)
+        |_ tmp ==> Zwischenspeicher für Dateien, die im weiteren Ablauf des Programms benötigt werden. Meist Speicherung von Zwischenergebnissen
+        |_ output ==> Hier werden alle Ergebnis Dateien gespeichert
+
+
+
+Release vom 31.07.2019
+
+- Neu hinzugefügt in das Gesamtpaket wurde die Datei
+  osint_wlh_all.py
+  Diese führt nahezu automatisch alle tests aus und speichert die Ergebnisse in einer Datei.
+  Nähere Informationen dazu sind im readme.txt , Abschnitt 3 , zu finden.
+
+
+Release vom 07.07.2019
+
+- Houskeeping: Die Datei "reverse_test.sh" mit "curl_call.sh" ersetzt
+  In allen Modulen angepasst
+  
+- Integration einer Funktion, zur Abfrage aller Checks, mit der Ausgabedatei
+  		"All_Checks_<Domain>_<Datum>.txt"
+  Bei der Nutzung dieser Funktion, werden zu Beginn des Programmlaufs alle benötigten Daten abgefragt.
+
+
+
+Release vom 07.06.2019
+
+- Funktion 1 "DNSDUMPSTER"
+	- Anpassung der Anzeige
+	- Ergebnisse werden jetzt als Map und Exceldatei lokal gespeichert
+	
+- Funktion 9 "Response Time"
+	- Anpassung an der Anzeige (Spaltenbreite)
+	
+- Funktion 5 "Traceroute"
+	- Vor dem direkten Start wird dem Nutzer mitgeteilt, 
+		"  --  Achtung die Ausfuehrung eines Trace kann mehrere Minuten dauern!  --  "
