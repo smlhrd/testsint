@@ -1,0 +1,28 @@
+Testing... : imbus.de
+---- Domain ----
+imbus.de
+
+---- DNS Servers ----
+ns.ns-service.de. (84.246.122.199) AS34568 ConnectingBytes GmbH Germany
+ns2.ns-service.de. (212.224.101.199) AS44066 First Colo GmbH Germany
+
+---- MX Records ----
+5 antispam.odn.de. (212.34.165.141) AS12348 ODN OnlineDienst Nordbayern GmbH & Co. KG Germany
+10 mx.odn.de. (212.34.160.79) AS12348 ODN OnlineDienst Nordbayern GmbH & Co. KG Germany
+
+---- Host Records (A) ----
+owa.imbus.de (84.246.122.58) AS34568 ConnectingBytes GmbH Germany
+gate.imbus.de (84.246.122.58) AS34568 ConnectingBytes GmbH Germany
+firewall.imbus.de (84.246.122.58) AS34568 ConnectingBytes GmbH Germany
+mdm.imbus.de (212.34.181.124) AS12348 ODN OnlineDienst Nordbayern GmbH & Co. KG Germany
+extern.imbus.de (212.34.181.125) AS12348 ODN OnlineDienst Nordbayern GmbH & Co. KG Germany
+autodiscover.imbus.de (84.246.122.58) AS34568 ConnectingBytes GmbH Germany
+apptec-gw.imbus.de (212.34.181.115) AS12348 ODN OnlineDienst Nordbayern GmbH & Co. KG Germany
+www.imbus.de (84.246.122.58) AS34568 ConnectingBytes GmbH Germany
+anubis.imbus.de (anubis.imbus.de) (212.34.181.114) AS12348 ODN OnlineDienst Nordbayern GmbH & Co. KG Germany
+matomo.imbus.de (imbus-s01.your-host.de) (84.246.122.61) AS34568 ConnectingBytes GmbH Germany
+glossar.imbus.de (imbus-s01.your-host.de) (84.246.122.61) AS34568 ConnectingBytes GmbH Germany
+mail.imbus.de (mx.odn.de) (212.34.160.79) AS12348 ODN OnlineDienst Nordbayern GmbH & Co. KG Germany
+
+---- TXT Records ----
+"MS=ms56696564"

@@ -1,0 +1,67 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '84.246.122.56 - 84.246.122.63'
+
+% Abuse contact for '84.246.122.56 - 84.246.122.63' is 'abuse@hosting-server.cc'
+
+inetnum:        84.246.122.56 - 84.246.122.63
+netname:        DE-IMBUS
+descr:          imbus AG
+country:        DE
+admin-c:        TL1563-RIPE
+tech-c:         MNT-RIPE
+status:         ASSIGNED PA
+remarks:        [ CB#: 53015850 ]
+mnt-by:         HOSTING-SERVER-MNT
+mnt-routes:     HOSTING-SERVER-MNT
+created:        2009-04-21T19:46:46Z
+last-modified:  2009-04-21T19:46:46Z
+source:         RIPE
+
+person:         Patrick Kambach
+address:        ConnectingBytes GmbH
+address:        In der Steele 35
+address:        40599 Duesseldorf
+address:        GERMANY
+address:        abuse@hosting-server.cc
+phone:          +49 211 6887837
+fax-no:         +49 211 6887839
+nic-hdl:        MNT-RIPE
+mnt-by:         HOSTING-SERVER-MNT
+created:        2003-04-26T16:10:01Z
+last-modified:  2018-05-04T11:48:06Z
+source:         RIPE # Filtered
+
+person:         Tilo Linz
+address:        imbus AG
+address:        Kleinseebacher Str. 9
+address:        91096 Moehrendorf
+address:        DE
+phone:          +49 9131 7518-0
+fax-no:         +49 9131 7518-50
+nic-hdl:        TL1563-RIPE
+mnt-by:         HOSTING-SERVER-MNT
+created:        2009-04-21T19:46:45Z
+last-modified:  2017-10-30T22:05:26Z
+source:         RIPE # Filtered
+
+% Information related to '84.246.120.0/21AS34568'
+
+route:          84.246.120.0/21
+descr:          ConnectingBytes GmbH
+origin:         AS34568
+mnt-by:         HOSTING-SERVER-MNT
+created:        2007-10-24T11:50:13Z
+last-modified:  2013-07-19T07:06:15Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.95.1 (HEREFORD)
+
+

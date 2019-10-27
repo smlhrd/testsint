@@ -1,0 +1,20 @@
+Location                      Lookup Result                 Status                        
+Atlanta, USA                  84.246.122.58                 O.K.                          
+Auckland, New Zealand         84.246.122.58                 O.K.                          
+Beauharnois, Canada           84.246.122.58                 O.K.                          
+Falkenstein, Germany          84.246.122.58                 O.K.                          
+Helsinki, Finland             84.246.122.58                 O.K.                          
+Hong Kong, China              84.246.122.58                 O.K.                          
+Las Vegas, USA                84.246.122.58                 O.K.                          
+London, UK                    84.246.122.58                 O.K.                          
+Los Angeles, USA              84.246.122.58                 O.K.                          
+Milan, Italy                  84.246.122.58                 O.K.                          
+New York, USA                 84.246.122.58                 O.K.                          
+Perth, Australia              84.246.122.58                 O.K.                          
+Rotterdam, Netherlands        84.246.122.58                 O.K.                          
+Sandefjord, Norway            84.246.122.58                 O.K.                          
+Seattle, USA                  84.246.122.58                 O.K.                          
+Singapore, Singapore          84.246.122.58                 O.K.                          
+Sydney, Australia             84.246.122.58                 O.K.                          
+Tokyo, Japan                  84.246.122.58                 O.K.                          
+Varna, Bulgaria               84.246.122.58                 O.K.                          
